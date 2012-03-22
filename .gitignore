@@ -17,7 +17,7 @@
 *.iso
 *.jar
 *.rar
-*.tar
+#*.tar
 *.zip
 
 # Logs and databases #
@@ -36,7 +36,7 @@ Thumbs.db
 
 # Eclipse Files #
 #################
-.project
+#.project
 .classpath
 .buildpath
 .metadata
