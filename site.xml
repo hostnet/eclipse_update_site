@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <description name="Hostnet Update Site" url="http://dead.hidde.ontw.hostnetbv.nl/eclipse">
-      Here Hostnet plugins for Zend Studio and eclipse are published
+   <description name="Hostnet Update Site" url="http://eclipse.hostnetbv.nl/">
+      Here Hostnet plugins for Eclipse are published
    </description>
-   <feature url="features/nl.hostnet.deadfiles.feature_0.1.6.qualifier.jar" id="nl.hostnet.deadfiles.feature" version="0.1.6.qualifier">
+   <feature url="features/nl.hostnet.deadfiles.feature_0.1.6.201504221746.jar" id="nl.hostnet.deadfiles.feature" version="0.1.6.201504221746">
       <category name="nl.hostnet"/>
    </feature>
-   <category-def name="nl.hostnet" label="hostnet">
+   <feature url="features/phpOrganizeImportsFeature_1.0.0.201504221746.jar" id="phpOrganizeImportsFeature" version="1.0.0.201504221746">
+      <category name="PDT_extentions"/>
+   </feature>
+   <archive path="features/phpOrganizeImportsFeature_1.0.0.201504221036.jar" url="http://yannickl88.github.io/phpOrganizeImportsPlugin/features/phpOrganizeImportsFeature_1.0.0.201504221036.jar"/>
+   <archive path="plugins/nl.hostnet.eclipse.organize_0.1.1.jar" url="http://yannickl88.github.io/phpOrganizeImportsPlugin/plugins/nl.hostnet.eclipse.organize_0.1.1.jar"/>
+   <category-def name="nl.hostnet" label="Hostnet">
       <description>
          Hostnet Eclipse Update Site
+      </description>
+   </category-def>
+   <category-def name="PDT_extentions" label="PDT Extentions">
+      <description>
+         Extentions For PDT
       </description>
    </category-def>
 </site>
